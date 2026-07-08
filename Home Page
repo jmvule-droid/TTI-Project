@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Hub Station Framework | TTI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo-block">
+                <div class="logo-circle">🗲</div>
+                <div class="logo-text"><h1>TTI</h1><p>Together for Transformation</p></div>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="programs.html">Programs</a></li>
+                    <li class="active"><a href="hub.html">The Hub</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="get-involved.html">Get Involved</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-banner">
+            <span class="badge">The Biological Machinery</span>
+            <h2>Living Systems Laboratory</h2>
+            <p>Where every output from one standalone module becomes an immediate bio-input for another. Nothing is wasted.</p>
+        </section>
+
+        <!-- STATION 01: BSF -->
+        <section class="container station-layout">
+            <div class="image-frame-placeholder">Station 01 Field Lab Unit</div>
+            <div class="station-text">
+                <div class="station-num">01</div>
+                <h3>The BSF Metabolic Engine</h3>
+                <div class="station-tagline">Breeding & Hatchery Core</div>
+                <p>This is the heart of the Hub. Students, youth, and women learn to manage the entire life cycle of the Black Soldier Fly, transitioning from simple waste management to premium protein engineering.</p>
+                <ul class="station-list">
+                    <li><strong>Waste Sorting:</strong> Inspecting organic waste and processing high-sugar boosters.</li>
+                    <li><strong>Breeding Colony:</strong> Maintaining colonies for consistent structural egg production.</li>
+                    <li><strong>Bio-Conversion Bins:</strong> Transforming waste mass into Frass organic fertilizer.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- STATION 02: POULTRY -->
+        <section class="canvas-bg">
+            <div class="container station-layout reverse">
+                <div class="image-frame-placeholder">Station 02 Conversions Unit</div>
+                <div class="station-text">
+                    <div class="station-num" style="color: #E2B13C;">02</div>
+                    <h3>The Poultry & Aquaculture Loop</h3>
+                    <div class="station-tagline">Protein Converters Matrix</div>
+                    <p>Direct conversion of engineered BSF larvae into high-yield, organic animal protein on a zero-feed-cost operational delivery model.</p>
+                    <ul class="station-list">
+                        <li><strong>Poultry Unit:</strong> 50 local breed chickens raised purely on automated BSF larvae.</li>
+                        <li><strong>Aquaculture Tanks:</strong> Tilapia and Catfish ponds driving nutrient-rich fertigation links.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- STATION 03: HORTICULTURE -->
+        <section class="container station-layout">
+            <div class="image-frame-placeholder">Station 03 Vertical Fields</div>
+            <div class="station-text">
+                <div class="station-num">03</div>
+                <h3>Regenerative Horticulture & Vertical Gardening</h3>
+                <div class="station-tagline">Symbiotic Growing Architecture</div>
+                <p>Proving high-density urban farming can flourish inside minimal slum footprints using refined BSF Frass compost structures.</p>
+                <ul class="station-list">
+                    <li><strong>Vertical Towers:</strong> High-yield spinach and kale production without external synthetic inputs.</li>
+                    <li><strong>Banana Pseudo-stem Nursery:</strong> Material resource center feeding local manufacturing lines.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-bottom"><p>&copy; 2026 Together for Transformation Initiatives.</p></div>
+    </footer>
+
+</body>
+</html>
