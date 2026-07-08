@@ -2,19 +2,24 @@
    1. GLOBAL CONSTANTS & BRAND VARIABLES
    ========================================================================== */
 :root {
-  /* Color Palette */
-  --brand-dark: #121A1F;      /* Deep obsidian slate for structural blocks */
-  --brand-accent: #FFBD15;    /* High-contrast yellow/gold for focus metrics */
-  --oat-light: #FBF9F4;       /* Clean, content-focused cream background */
-  --oat-deep: #F1ECE1;        /* Muted sand background for section grouping */
-  --text-primary: #1C242A;    /* Stark dark charcoal for high-contrast reading */
-  --text-muted: #56626C;      /* Readable grey for secondary descriptions */
-  --line: #D9D2C5;            /* Editorial thin separator borders */
+ :root {
+  /* Green-Centric Brand Color Palette */
+  --brand-dark: #0D1F16;      /* Deep, rich forest obsidian for grounding blocks */
+  --brand-accent: #10B981;    /* Vibrant Emerald Green for active metrics & links */
+  --oat-light: #F7F9F6;       /* Crisp, clean mint-tinted background for high readability */
+  --oat-deep: #EBEDE8;        /* Muted sage-sand tint for section background grouping */
+  --text-primary: #111C17;    /* High-contrast deep pine-charcoal for crisp text */
+  --text-muted: #4A5750;      /* Soft forest grey for narrative descriptions */
+  --line: #D0D5CE;            /* Clean editorial thin border lines */
   
   /* Typography Scale */
   --font-display: 'Space Grotesk', sans-serif;
   --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --font-mono: 'IBM Plex Mono', monospace;
+  
+  /* Grid & Spacing Standard */
+  --max-width: 1280px;
+}
   
   /* Grid & Spacing Standard */
   --max-width: 1280px;
